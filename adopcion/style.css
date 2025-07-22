@@ -1,0 +1,467 @@
+.container {
+    width: 1200px;
+    margin: 0 auto;
+    font-family:'Times New Roman', Times, serif;
+    font-weight:bold;
+    font-size: 15.5px;
+}
+
+header div{
+    background-color: #688bd4;
+    padding: 20px;
+    color:azure;
+}
+
+header h1 {
+    position: absolute;
+    left: 140px;
+    color:rgb(26, 26, 44);
+    line-height: 20px;
+    font-size: 24px;
+    font-family:'Courier New', Courier, monospace;
+}
+
+header h2 {
+   font-family: cursive;
+   font-size: larger;
+   font-weight: lighter;
+   text-align: center;
+   margin-top: 30px;
+   color: rgb(26, 26, 44);;
+}
+
+.extra {
+    width: 70px;
+    height: 70px;
+    float: right;
+    position: absolute;
+    right: 90px;
+    top: 20px;
+}
+
+.logo {
+    width: 100px;
+    height: 50px;
+}
+
+.pequeño{
+    width: 50px;
+    height: 50px;
+    position:absolute;
+    top: 84px;
+    left: 90px;
+}
+
+aside{ 
+    background-color: rgb(26, 26, 44);
+    width: 1100px;
+    height: 350px;
+    padding: 5px;
+    border-radius: 10px;
+    font-size: 40px;
+    text-align: left;
+    padding-left: 20px;
+    margin: 0 auto;
+}
+
+.contenedor-img{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+img {
+    height: 220px;
+    width: 320px;
+    justify-items: center;
+}
+
+.balancear {
+    background-color: rgb(26, 26, 44);
+  animation-name: balanceo;
+  animation-duration: 3s;
+  animation-timing-function:ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction:alternate-reverse;
+  justify-items: center;
+}
+
+.imagen-pequeña {
+    background-color: rgb(26, 26, 44);
+    width: 160px;
+    height: 160px;
+}
+
+
+@keyframes balanceo {
+    50% {
+        transform: rotate(10deg);
+    }
+    100% {
+        transform: rotate(-10deg);
+    }
+}
+
+.animada {
+    height: 236px;
+    width: 336px;
+    border: 6px solid azure;
+    padding: 0 auto;
+}
+
+nav {
+    background-color: #688bd4;
+    color:azure;
+    padding: 20px;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    margin-top: 0px;
+    gap: 15px;
+}
+
+nav li {
+    background-color: rgb(26, 26, 44);
+    border-radius: 20px;
+    transition: background 0.3;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 500px;
+    text-align: center;
+}
+
+nav a{
+    text-decoration: none;
+    padding: 10px 10px;
+    display: block;
+    color: azure;
+}
+
+nav li:hover {
+    background-color: rgb(43, 43, 145);
+}
+
+main div {
+    background-color: #DD969C;
+    padding: 10px;
+    height: 700px;
+}
+
+section {
+    background-color: aliceblue;
+    width: 800px;
+    height: 100px;
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+    border-radius: 20px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+section ul {
+    list-style: none;
+    display: flex;
+    padding: 0px;
+    margin-top: 0px;
+    gap: 15px;
+}
+
+section li {
+    background-color: rgb(26, 26, 44);
+    border-radius: 20px;
+    transition: background 0.3;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 auto;
+    margin-top: 10px;
+    width: 500px;
+    text-align: center;
+}
+
+section a {
+     text-decoration: none;
+    padding: 10px 10px;
+    display: block;
+    color: azure;
+}
+
+section li:hover{
+    background-color: rgb(43, 43, 145);
+}
+
+p {
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: lighter;
+    
+}
+
+.text {
+    text-align:justify;
+    float: left;
+    height: auto;
+    justify-content: space-around;
+    margin: 0 auto;
+    padding-right: 50px;
+    display: block;
+    position: absolute;
+    left: 100px;
+    width: 1100px;
+    font-size: 20px;
+}
+
+.derecha {
+    position: absolute;
+    right: 70px;
+    border-radius: 20px;
+    width: 450px;
+    height: 300px;
+    margin-top: 95px;
+}
+
+.logito{
+    position: absolute;
+    left: 815px;
+    top:697px;
+    width: 50px;
+    height: 50px;
+}
+
+.adorno {
+    position: absolute;
+    right: 100px;
+    border-radius: 20px;
+    width: 100px;
+    height: 100px;
+}
+
+footer {
+    background-color: #688bd4;
+    color:azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10px;
+    padding: 100px;
+    height: 120px;
+    margin-bottom: 0%;
+}
+
+.cuadrito{
+ background-color: #DD969C;
+    width: 1180px;
+    height: 100px;
+    display: block;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+    text-align: center;
+    margin: 0 auto;
+ 
+}
+
+.banner{
+    border-radius: 50px;
+    width: 900px;
+}
+
+footer ul {
+    list-style: none;
+    display: inline-flex;
+    padding: 0px;
+    margin-top: 0px;
+    gap: 15px;
+    height: 0px;
+    justify-self: unset;
+}
+
+footer li {
+    border-radius: 20px;
+    transition: background 0.3;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 0 auto;
+    margin-top: 0 auto;
+    width: 500px;
+    text-align: right;
+}
+
+footer a {
+    text-decoration: none;
+    padding: 5px;
+    color: azure;
+}
+
+.red {
+    width: 40px;
+    height: 40px;
+    float: left;
+    display: inline-flex;
+}
+
+.derechos {
+    background-color: #688bd4;
+    color:azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    text-align:left;
+    margin-top: 0px;
+    padding-bottom: 5px;
+}
+
+.contacto {
+    background-color: #688bd4;
+    color:azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    display: inline-block;
+    margin-top: 25px;
+}
+
+.correo {
+    background-color: #688bd4;
+    color:azure;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    padding-left: 50px;
+    padding-bottom: 10px;
+    margin-top: 0 auto;
+    display: inline-block;
+    justify-content: space-around;
+}
+
+.izquierda{
+    float: left;
+    position: absolute;
+    left: 100px;
+    border-radius: 20px;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    display: block;
+}
+
+.centro{
+    float: none;
+    border-radius: 20px;
+    margin-left: 3px;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+}
+
+.derecha2{
+    float: right;
+    border-radius: 20px;
+    margin-left: 30px;
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    margin-top: 0px;
+    margin-right: 30px;
+}
+
+.siames-texto {
+    float: left;
+    background-color: aliceblue;
+    text-align:left;
+    font-size: 20px;
+    width: 150px;
+    height: 110px;
+    border-radius: 10px;
+    margin: 0 auto;
+    justify-content: left;
+     font-size: 18px;
+    font-weight: lighter;
+}
+
+.siames-descripcion {
+    float: center;
+    background-color: aliceblue;
+    text-align:left;
+    font-size: 20px;
+    width: 600px;
+    height: 110px;
+    border-radius: 10px;
+    margin: 0 auto;
+    justify-content: right;
+     font-size: 18px;
+    font-weight: lighter;
+}
+
+
+h3 {
+    text-align: left;
+    color:rgb(26, 26, 44);
+    line-height: 20px;
+    font-size: 20px;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.bobail-texto {
+    float: left;
+    background-color: aliceblue;
+    text-align:left;
+    font-size: 20px;
+    width: 200px;
+    height: 110px;
+    border-radius: 10px;
+    margin: 0 auto;
+    justify-content: left;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.bobail-descripcion {
+    float: center;
+    background-color: aliceblue;
+    text-align:left;
+    font-size: 20px;
+    width: 910px;
+    height: 110px;
+    border-radius: 10px;
+    margin: 0 auto;
+    justify-content: right;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.perro-texto {
+    float: left;
+    background-color: aliceblue;
+    text-align:left;
+    font-size: 20px;
+    width: 200px;
+    height: 110px;
+    border-radius: 10px;
+    margin: 0 auto;
+    justify-content: left;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.perro-descripcion {
+    float: center;
+    background-color: aliceblue;
+    text-align:left;
+    font-size: 20px;
+    width: 910px;
+    height: 110px;
+    border-radius: 10px;
+    margin: 0 auto;
+    justify-content: right;
+    font-size: 18px;
+    font-weight: lighter;
+}
+
+.final{
+    float: center;
+    border-radius: 20px;
+}
